@@ -26,7 +26,7 @@ register_function(fetch_search_results, caller=researcher, executor=manager, nam
 ```
 These are example agents of researcher and manager, and the tool that is being assigned is fetch_search_results. Then you specify the caller who will be using the tool and the executor who will be executing this tool. It can be the same agent, but in that case, the agent needs to be UserProxyAgent and needs to be able to execute codes:
 
-'''python
+```python
 
 code_execution_config={"executor": code_executor}
 ```
