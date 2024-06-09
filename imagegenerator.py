@@ -13,6 +13,7 @@ def generate_and_download_image(prompt, style="vivid", size="1024x1024", filenam
         size=size,
         style=style
     )
+
     
     # extract the image URL from the response
     image_url = response['data'][0]['url']
