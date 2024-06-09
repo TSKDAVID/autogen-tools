@@ -6,7 +6,6 @@ these are some tools you may find useful for your autogen project, including sim
 in case you dont know you can register tools for agents like this:
 
 
-
 start by defining the tool 
 ```python
 def fetch_search_results(query: str) -> Union[List[Dict[str, str]], Dict[str, str]]:
