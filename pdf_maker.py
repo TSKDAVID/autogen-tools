@@ -3,7 +3,7 @@ def pdf_maker():
     path_to_wkhtmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'  # Update this path
     config = pdfkit.configuration(wkhtmltopdf=path_to_wkhtmltopdf)
 
-    # Enable local file access
+    # enable local file access
     options = {
         'enable-local-file-access': '',
         'quiet': ''
