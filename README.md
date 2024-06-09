@@ -1,5 +1,5 @@
 # autogen-tools
-this are some tools you may find useful for your autogen project, including simple and advanced tools as well
+these are some tools you may find useful for your autogen project, including simple and advanced tools as well
 
 ## how to register tools
 
