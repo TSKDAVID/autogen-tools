@@ -9,7 +9,7 @@ def pdf_maker():
         'quiet': ''
     }
 
-    # Convert HTML file to PDF
+    # convert HTML file to PDF
     pdfkit.from_file(f'test.html', f'output.pdf', configuration=config, options=options) #change the 'test.html' and 'output.pdf' into names that you need, test html is a file that needs to e converted and
                                                                                          #and output.pdf is an output file
 
